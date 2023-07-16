@@ -8,15 +8,17 @@
 int main(void) 
 
 {
+
 	int z;
 
-	for( z = 0; z < 26; z++)
+	for ( z = 0; z < 26; z++)
 
-		putchar('a' + z);
+		putchar ('a' + z);
 
-	putchar('\n');
+	putchar ('\n');
 
 	return (0);
+
 }							
 	
 
