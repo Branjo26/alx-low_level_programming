@@ -5,17 +5,16 @@
 * Return: Always 0 (success)
 */
 
-int main(void)
+int main(void) 
 {
-    char letter;
+	int z;
+	for(z = 0; z < 26; z++)
+		putchar('a' + z);
+	putchar('\n');
+	return (0);
+}							
+	
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        putchar(letter);
-    }
 
-    putchar('\n');
 
-    return 0;
-}
 
